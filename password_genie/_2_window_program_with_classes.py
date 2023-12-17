@@ -45,7 +45,7 @@ class MainWindow:
         logo.place(relx = 0.5,rely = 0.05, anchor = CENTER)        
         word_input_label = Label(master, bg = "#8D918D" ,text = "Make a new password\n from a current password", font = ("Arial",12))
         word_input_label.place(relx = 0.25,rely = 0.58, anchor = CENTER)
-        length_input_label = Label(master, bg = "#8D918D" ,text = "Generate a new password\n at your desired length", font = ("Arial",12))
+        length_input_label = Label(master, bg = "#8D918D" ,text = "Generate a new password\n at your desired length\n(Enter Number)", font = ("Arial",12))
         length_input_label.place(relx = 0.72,rely = 0.58, anchor = CENTER)
 
         #Method to use in the Exit button    
